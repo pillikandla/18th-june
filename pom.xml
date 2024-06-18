@@ -209,15 +209,12 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerconnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
-    <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
-  </scm>
-
-  <prerequisites>
+ <scm>
+    <connection>scm:git:git://github.com/myproject/myrepo.git</connection>
+    <developerConnection>scm:git:ssh://github.com/myproject/myrepo.git</developerConnection>
+    <url>http://github.com/myproject/myrepo</url>
+</scm>
+<prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
 
